@@ -24,7 +24,7 @@ static NSString* kEmotionImageKey = @"kEmotionImageKey";
 //表情文字分离程序
 -(NSArray*)sectionsAfterAnalyzeString:(NSString*)string withPattern:(NSString*)pattern;
 
-//文本行折行分析后，第一项为绘图起始点，第二项为文本,第三项为绘图起始点的X落点
+//文本行折行分析后，第一项为绘图起始点，第二项为文本,第三项为下一次绘图的起始点的X落点
 -(NSArray*)textRowsFromPoint:(CGPoint)point text:(NSString*)text;
 
 @end
